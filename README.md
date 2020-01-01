@@ -21,5 +21,8 @@ Personal web page and blog
 
     bundle exec jekyll serve
 
+### Try a theme
+
+Find one on github and update the Gemfile and the _config.yml pointing to the theme.
 
 
