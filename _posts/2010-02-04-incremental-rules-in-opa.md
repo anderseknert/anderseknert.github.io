@@ -13,24 +13,22 @@ I'll use this blog to post some of my notes while I exlore this great piece of t
 A common pattern when writing Rego policies is to use [incremental rules](https://www.openpolicyagent.org/docs/latest/policy-cheatsheet/#incremental) to build a set of values. This is tremendously useful for e.g. returning a message for each violation of a defined policy:
 
 ```
-package play
-
 deny[reason] {
-	input.role != "admin"
-	reason = "User not an admin"
+    input.role != "admin"
+    reason = "User not an admin"
 }
 
 deny[reason] {
-	time.weekday(time.now_ns()) == "Sunday"
-	reason = "Access not allowed on Sundays"
+    time.weekday(time.now_ns()) == "Sunday"
+    reason = "Access not allowed on Sundays"
 }
 ```
 Any non-admin trying to access the requested resource on a Sunday would now not only be denied, but could also be given an explanation as to why:
 
 ```
 "deny": [
-	"Access not allowed on Sundays",
-	"User not an admin"
+    "Access not allowed on Sundays",
+    "User not an admin"
 ]
 ```
 See full example on the [Rego Playground](https://play.openpolicyagent.org/p/sAG0hfF1Fd).
@@ -57,8 +55,8 @@ address["street_name"] = streetname {
 }
 
 address["street_number"] = streetnumber {
-	numbers := regex.find_n(`\d+$`, input.street, 1)
-	streetnumber = to_number(numbers[0])
+    numbers := regex.find_n(`\d+$`, input.street, 1)
+    streetnumber = to_number(numbers[0])
 }
 ```
 Which would increment the address rule map as follows:
