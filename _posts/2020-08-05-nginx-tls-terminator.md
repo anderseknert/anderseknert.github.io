@@ -5,7 +5,7 @@ date: 2020-08-05 13:37:00 +0100
 categories: nginx tls https openssl security docker kubernetes
 ---
 
-<img src="assets/nginx_logo.svg" width="300">
+<img src="/assets/nginx_logo.svg" width="300">
 
 Sometimes you'll want/need to use TLS for connections to internal kubernetes services where TLS isn't supported or used by the original application, or where you'd normally terminate TLS in the ingress but don't want to have internal kubernetes traffic routed through that. Cases like that are a great fit for the [sidecar pattern](https://docs.microsoft.com/en-us/azure/architecture/patterns/sidecar), injecting a small proxy inside a pod to terminate TLS and forward the requests to the original application. Having configured a few of these sidecars for various projects, I started to compile a common configuration for nginx which I could reuse for this purpose. Hence the [nginx-tls-terminator](https://github.com/anderseknert/nginx-tls-terminator) project was born.
 
