@@ -2,7 +2,8 @@
 layout: post
 title: "Incremental rules in Rego"
 date: 2020-02-04 13:37:00 +0100
-categories: opa
+categories: tech
+tags: opa open-policy-agent
 ---
 
 So a lot of the stuff I've been working on lately has revolved around Open Policy Agent (OPA). Though I'm planning a longer writeup on the subject

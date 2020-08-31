@@ -2,7 +2,8 @@
 layout: post
 title: "Pre-commit hooks for OPA"
 date: 2020-09-01 00:01:00 +0100
-categories: pre-commit pre-commit-hooks opa open-policy-agent tooling devops development code-quality
+categories: tech
+tags: pre-commit pre-commit-hooks opa open-policy-agent tooling devops development code-quality
 ---
 
 One of the things that's _really_ improved my workflow in recent years is using pre-comit hooks for git. Tools that help with code quality and style are everywhere these days and obviously help tremendously in both catching bugs as well as enforcing agreed upon style rules. And while these tools should be included as a natural part of any build pipeline, having to wait for the CI/CD server to build your branch and report back on any code quality issues can be both time consuming and annoying. While it's obvious how to avoid that - by running tests, code quality checks and formatters locally before pushing commits, or at least preparing PR's - I just constantly forget about it. Pre-commit hooks to the rescue!

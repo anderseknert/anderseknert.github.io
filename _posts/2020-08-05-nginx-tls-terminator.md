@@ -2,7 +2,8 @@
 layout: post
 title: "Nginx TLS terminator"
 date: 2020-08-05 13:37:00 +0100
-categories: nginx tls https openssl security docker kubernetes
+categories: tech
+tags: nginx tls https openssl security docker kubernetes
 ---
 
 <img src="/assets/nginx_logo.svg" width="300">
