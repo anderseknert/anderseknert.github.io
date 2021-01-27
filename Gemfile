@@ -6,7 +6,7 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 
-gem "github-pages", "~> 210", group: :jekyll_plugins
+gem "github-pages", "~> 211", group: :jekyll_plugins
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.15"
