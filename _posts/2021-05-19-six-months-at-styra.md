@@ -6,7 +6,7 @@ categories: tech
 tags: opa openpolicyagent styra
 ---
 
-Wow, time really does fly! Feels like only yesterday I said [goodbye to Bisnode]({% post_url 2020-11-25-thank-you-bisnode-hello-styra %}), and hello to Styra. But that was back in December! Almost six months later and..
+Wow, time really does fly! Feels like only yesterday I said [goodbye to Bisnode]({% post_url 2020-11-25-thank-you-bisnode-hello-styra %}), and hello to [Styra](https://www.styra.com/). But that was back in December! Almost six months later and..
 
 - OPA is now a [graduated](https://www.cncf.io/announcements/2021/02/04/cloud-native-computing-foundation-announces-open-policy-agent-graduation/) CNCF project.
 - Styra has been listed as one of the [best workplaces of 2021](https://www.inc.com/best-workplaces/2021)
