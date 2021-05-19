@@ -8,7 +8,7 @@ tags: opa openpolicyagent styra
 
 Wow, time really does fly! Feels like only yesterday I said [goodbye to Bisnode]({% post_url 2020-11-25-thank-you-bisnode-hello-styra %}), and hello to [Styra](https://www.styra.com/). But that was back in December! Almost six months later and..
 
-- OPA is now a [graduated](https://www.cncf.io/announcements/2021/02/04/cloud-native-computing-foundation-announces-open-policy-agent-graduation/) CNCF project.
+- Open Policy Agent is now a [graduated](https://www.cncf.io/announcements/2021/02/04/cloud-native-computing-foundation-announces-open-policy-agent-graduation/) CNCF project.
 - Styra has been listed as one of the [best workplaces of 2021](https://www.inc.com/best-workplaces/2021)
 - ...named as a [cool vendor](https://registration.styra.com/styra-gartner-cool-vendor) by Gartner.
 - ...has [raised $40 million](https://techcrunch.com/2021/05/18/styra-the-startup-behind-open-policy-agent-nabs-40m-to-expand-its-cloud-native-authorization-tools/) in series B funding.
