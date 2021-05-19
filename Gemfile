@@ -6,10 +6,10 @@ source "https://rubygems.org"
 #
 #     bundle exec jekyll serve
 
-gem "github-pages", "~> 213", group: :jekyll_plugins
+gem "github-pages", "~> 214", group: :jekyll_plugins
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.15"
+  gem "jekyll-feed", "~> 0.15.1"
   gem 'jekyll-mentions'
   gem 'jekyll-seo-tag'
   gem 'jekyll-youtube'
